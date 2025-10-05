@@ -47,17 +47,6 @@ net stop RabbitMQ
 net start RabbitMQ
 ```
 
-##Database
-
-### Version: Sql Server 2019
-## Installation
-
-- ` 1 - Find database project located in solution`
-- ` 2 - Right click on database project and select publish option`
-- ` 3 - After popup has been shown at target database connection click on edit button`
-- ` 4 - Then select the server and the database you created first so you can import the settings from database project`
-- ` 5 - After all the needed configurations are done click publish button and your are done with the database setup`
-
 ## Web App
 
 ### Project Structure: Microservice Structure

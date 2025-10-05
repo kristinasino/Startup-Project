@@ -1,0 +1,23 @@
+﻿using Identity.Microservice.Domain.Entities.BaseEntities;
+
+namespace Domain.Entities
+{
+    public partial class TonageInsertForm : BaseEntity
+    {
+        public int CustomerLocationId { get; set; }
+        public int Month { get; set; }
+        public int Year { get; set; }
+        public decimal? TrashTonage { get; set; }
+        public decimal? CostTrash { get; set; }
+        public decimal? RecyclingTonage { get; set; }
+        public decimal? RecyclingCost { get; set; }
+        public decimal? BarelRental { get; set; }
+        public decimal? AvgHaulsPer5CompactedTons { get; set; }
+        public decimal? AvgCostHaul { get; set; }
+        public decimal? AvgCostDisposal { get; set; }
+        public decimal? TotalEstimationIfDisposedAsRegularWaste { get; set; }
+        public decimal? ActualCost { get; set; }
+
+        public virtual CustomerLocation CustomerLocation { get; set; }
+    }
+}
